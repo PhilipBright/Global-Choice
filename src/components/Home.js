@@ -56,11 +56,20 @@ function Home() {
     <Row className='pt-5'>
         <Col xs={12} className='text-center' ><h2 style={{fontWeight: 'bold'}}>Why We Are Different From Others?</h2></Col>
     
-    <Row className='pt-4'>
-        <Col xs={12} className='text-center' ><p style={{paddingLeft: 20}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-         Lorem Ipsum has been t 1960s with the release of Letraset sheets containing  <br/>
-         Lorem Ipsum is simply dummy text of the printing an
-         Lorem Ipsum has been t 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p></Col>
+    <Row className='pt-4 px-4'>
+        <Col xs={12} className='text-center' >
+          <p>We Personalize our service to the needs of each and every guest.<br/> 
+          We know what they want even before they do. We are experts at what we do and our knowledge goes beyond our specific role or department <br/>
+          we bring the very best of ourselves in everything we do. We value real smiles, real interactions and real conversations</p>
+          <p></p>
+        </Col>
+        {/* <Col xs={4} className='text-center' >
+          <h3>Personalized</h3>
+        </Col>
+        <Col xs={4} className='text-center' >
+          <h3>Personalized</h3>
+        </Col> */}
+        </Row>
      <Row xs={1} md={2} className='d-flex justify-content-center g-4' style={{paddingLeft: 50}}>
             <Col xs={6} md={2} lg={2} className="d-flex flex-column align-items-center"> 
                 <Image src={abroad} roundedCircle='false' width={100} height={100} className="mb-3" ></Image>
@@ -82,7 +91,7 @@ function Home() {
 
 
 
-    </Row>
+   
     </Row>
     </Container>
    

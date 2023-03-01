@@ -47,8 +47,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>Food & Beverage Course</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+              Food and Beverage service department is one of the main service oriended and crucial division of the hotel.
+              It renders the services prepared food items, beverages, and tobacco in a hospitable way to the customer as per their demand.
           </Card.Text>
         </Card.Body>
        
@@ -58,8 +58,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>Bartender Course</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          A bartender is a person who works in a bar, pub, nightclub, or other establishment that serves alcoholic beverages. 
+          The primary responsibility of a bartender is to prepare and serve drinks to customers while also ensuring that they have an enjoyable experience.
           </Card.Text>
         </Card.Body>
         
@@ -69,9 +69,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>HouseKeeping & Laundary Course</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+          In a hotel or other hospitality setting, housekeeping involves ensuring that guest rooms are clean and stocked with fresh linens, towels, and other amenities.
+           Housekeepers may also be responsible for responding to guest requests and addressing any issues or concerns they may have.
           </Card.Text>
         </Card.Body>
       
@@ -85,8 +84,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>Food Safety & Galley Steward Course</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          In a commercial kitchen or galley, food safety is a critical concern, as large quantities of food are prepared and served to many people.
+           Kitchen staff are trained in food safety practices to prevent cross-contamination, bacterial growth, and other hazards that can cause foodborne illness.
           </Card.Text>
         </Card.Body>
         
