@@ -30,16 +30,14 @@ const styles = {
     }
     
   };
-function GroupExample() {
+function Course() {
   return (
-    <Container fluid style={{backgroundImage: `url(${Background})`}}>
+    <Container id='course' fluid style={{backgroundImage: `url(${Background})`}}>
       {/* Header */}
-      <Row>
+      <Row className='pb-3'>
         <Col xs={12} className='text-center pt-5'> <h2 style={{fontWeight: 'bold', color: '#ffffff'}}>Our Most Popular & Demanded Courses</h2></Col>
       </Row>
-      <Row>
-        <Col xs={12} className='text-center pt-3 pb-3'> <p style={{color: '#ffffff'}}>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting  </p></Col>
-      </Row>
+      
       {/* cards */}
     <CardGroup className='pe-4 ps-5'>
       <Card className='ps-3 pt-3 pe-3 me-3 mb-4' style={{borderRadius: 10}}>
@@ -58,8 +56,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>Bartender Course</Card.Title>
           <Card.Text>
-          A bartender is a person who works in a bar, pub, nightclub, or other establishment that serves alcoholic beverages. 
-          The primary responsibility of a bartender is to prepare and serve drinks to customers while also ensuring that they have an enjoyable experience.
+          In a bar, pub, nightclub, or other establishment that serves alcoholic beverages,
+          the primary responsibility of a bartender is to prepare and serve drinks to customers while also ensuring that they have an enjoyable experience.
           </Card.Text>
         </Card.Body>
         
@@ -78,7 +76,7 @@ function GroupExample() {
       
       
     </CardGroup>
-    <CardGroup className='pe-4 ps-5'>
+    <CardGroup className='pe-4 ps-5 pb-4'>
     <Card className='ps-3 pt-3 pe-3 me-3 mb-4' style={{borderRadius: 10}}>
         <Card.Img variant="top" src={Galley} style={styles.cardImage} />
         <Card.Body>
@@ -95,8 +93,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>English Class</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          English is a universal language and is often used as the primary language for communication in the cruise ship and hospitality industries. Many travelers from
+           around the world choose to travel on cruise ships or stay in hotels, and English is the common language used to communicate with guests, coworkers, and other personnel.
           </Card.Text>
         </Card.Body>
        
@@ -107,8 +105,7 @@ function GroupExample() {
         <Card.Body>
           <Card.Title style={{fontWeight: 'bold'}}>German Class</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          German language skills can help ensure that German-speaking passengers have a positive experience on the cruise ship and that the ship is able to operate smoothly in German-speaking ports and waters.
           </Card.Text>
         </Card.Body>
         
@@ -117,4 +114,4 @@ function GroupExample() {
       </Container>
   );
 }
-export default GroupExample;
+export default Course;

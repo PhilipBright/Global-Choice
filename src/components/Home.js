@@ -14,7 +14,7 @@ const styles = {
   image: {
     width: '100%',
     maxWidth: '100%',
-    '@media (min-width: 992px)': {
+    '@media (minWidth: 992px)': {
       width: '150%'
     }},
     
@@ -25,21 +25,18 @@ const styles = {
 function Home() {
   return (
    
-    <Container fluid className='pb-4'>
+    <Container fluid className='pb-4' id='Home'>
       <Row lg={12}  className='p-4' style={{backgroundImage: `url(${background})` }}>
         <Col lg={6}>
             <h1 style={{fontWeight: 'bold', fontSize: 58, width: '100%'}}>Welcome to <br/>Global Choice</h1>
         <Row style={{width: '100%'}}>
             <Col lg={20}>
-                <p className='mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been t 1960s with the release of Letraset sheets containing
-                  Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been t 1960s with the</p>
+                <p className='mt-4'>This training will equip you with all the necessary skills and help you feel confident in your role before cruise ship. Specifically designed to prepare students for careers in the hospitality and cruise ship industries, providing specialized knowledge and practical training that can be directly applied in the workplace.</p>
             </Col>
             <Row className="d-flex  mt-3">
   <Col xs={12} md={8} className="d-flex " style={{marginLeft: 10, marginBottom: 20}}>
-    <Button variant="primary" size='md'>Get Started</Button>
-    <Button variant="danger" style={{marginLeft: 15, width: 100}}>Email</Button>
+    <Button variant="primary" size='md' href='#different'>Get Started</Button>
+    <Button variant="danger" style={{marginLeft: 15, width: 100,  }}><a href='mailto:gccruiseshiptraining@gmail.com' style={{textDecoration: "none", color: 'white'}}>Email</a></Button>
   </Col>
 </Row>
 
@@ -53,7 +50,7 @@ function Home() {
        
       </Row>
 
-    <Row className='pt-5'>
+    <Row className='pt-5' id='different'>
         <Col xs={12} className='text-center' ><h2 style={{fontWeight: 'bold'}}>Why We Are Different From Others?</h2></Col>
     
     <Row className='pt-4 px-4'>
