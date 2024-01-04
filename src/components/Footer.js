@@ -26,7 +26,7 @@ export default function Footer()
 
         </div>
         <h5 >+959797313137</h5>
-       <span> Copyright © 2023  {' '}</span> 
+       <span> Copyright © 2022  {' '}</span> 
         <span className=''>
           Global Choice. All rights reserved.
         </span>
